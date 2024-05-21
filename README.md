@@ -34,9 +34,9 @@ Ensure you have the following installed on your local machine:
     ```sh
     npm install
 
-## Running the Application
+### Running the Application
 
-To start the application, run the following command:
+1. **To start the application, run the following command**
     ```sh
     npm run serve
 
