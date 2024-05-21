@@ -7,7 +7,6 @@ Welcome to the React Slot Booking App! This application allows users to book slo
 - **Calendar View:** Select a date from a user-friendly calendar interface.
 - **Slot Booking:** Book available slots on the selected date.
 - **Responsive Design:** Optimized for both desktop and mobile devices.
-- **User Authentication:** Secure login and registration functionality (if applicable).
 
 ## Getting Started
 
