@@ -1,6 +1,6 @@
 # React Slot Booking App
 
-Welcome to the React Slot Booking App! This application allows users to book slots based on their selected date from a calendar view. 
+Welcome to the React Slot Booking App! This application allows users to book slots based on their selected date from a calendar view.
 
 ## Features
 
@@ -26,19 +26,25 @@ Ensure you have the following installed on your local machine:
    ```sh
    git clone https://github.com/ritikagg/sidepanda.git
 
+   ```
+
 2. **Navigate to the project directory**
-    ```sh
-    cd sidepanda
+
+   ```sh
+   cd sidepanda
+
+   ```
 
 3. **Install the necessary dependencies**
-    ```sh
-    npm install
+   ```sh
+   npm install
+   ```
 
 ### Running the Application
 
 1. **To start the application, run the following command**
-    ```sh
-    npm run serve
+   ```sh
+   npm run start
+   ```
 
 This will start the development server and you can view the app by navigating to http://localhost:3000 in your browser.
-
