@@ -63,7 +63,7 @@ const SlotSelector = () => {
   };
 
   const renderFooter = (
-    <div className="bg-primary flex h-20 items-center justify-between rounded-b-lg px-10">
+    <div className="flex h-20 items-center justify-between rounded-b-lg bg-primary px-10">
       <div className="text-xs font-bold uppercase text-white">
         Powered by <span className="cursor-pointer underline">Appointo</span>
       </div>
@@ -79,14 +79,14 @@ const SlotSelector = () => {
   );
 
   return (
-    <div className="flex h-full flex-col items-center justify-center bg-gradient-to-r from-white to-[#EFF4F3] ">
-      <div className="flex flex-col">
+    <div className="flex h-full flex-col items-center bg-gradient-to-r from-white to-[#EFF4F3] lg:justify-center ">
+      <div className="flex flex-col justify-center">
         <div className="flex flex-col lg:flex-row">
-          <div className="bg-gray-150 w-1/2 min-w-[450px] rounded-ss-lg p-4">
+          <div className="flex min-w-[450px] justify-center rounded-ss-lg bg-gray-150 p-4">
             <CalenderView date={date} setDate={setDate} />
           </div>
 
-          <div className="w-1/2 min-w-[450px] rounded-se-lg bg-white p-4">
+          <div className="min-w-[450px] rounded-se-lg bg-white p-4">
             <SlotsView
               slots={slots}
               date={date}
